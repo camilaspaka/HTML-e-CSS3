@@ -4,17 +4,42 @@ body {
 
 
 #tittle, .subtitle, .post_title {
-    color: blue;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: dotted;
 }
 
 .post_title{
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 5px;
 }
 
-.post {
-    background: black;
-    padding: 10px;
+.post_title {
+    background: pink;
+    padding: 15px 5px 10px 0;
     border: 3px solid black;
-    margin:10px;
+    margin:15px;
+}
+
+.post_content {
+    marging: 0;
+    margin-bottom: 15px;
+    color: purple;
+}
+
+.post_image {
+    margin-bottom:15px;
+    width: 500px;
+}
+
+ul{
+    list-style-type: square;
+    padding-left: 15px;
+    color:purple;
 }
